@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+{/* <span>{data.indexOf(data.color)}</span> */}
 class Content extends Component {
   render() {
     const data = this.props.data;
