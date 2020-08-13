@@ -17,7 +17,6 @@ class Home extends Component {
 export default Home
 
 // Things we need to fix
-// placeholder
-// grey & green # labels
+
 // Number lables on the paragraph
 // button spacing issues

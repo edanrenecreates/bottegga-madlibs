@@ -9,6 +9,15 @@
     text-align: center
 }
 
+.gray  {
+    background-color: #b3b3b3;
+}
+
+
+.green {
+    background-color:  #00cb79;
+}
+
 .home {
     position: relative;
     background-color: rgba(207, 207, 207, 0.06);
@@ -110,8 +119,23 @@
          height: 297px;
          background-color: #f2f2f2;
          justify-self: center;
-         
+         font-family: "Montserrat";
          margin-bottom: 84px;
+
+    &__label {
+        height: 18px;
+        width: 18px;
+        background-color: #000;
+        border-radius: 50%;
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+        line-height: 14px;
+        // padding-top: 3px;
+        margin: 4px;
+        display: inline-block;
+
+    }
 
          
          p {
@@ -165,7 +189,7 @@
 
     &__number {
         grid-column: number-s/number-e;
-        background-color: #00cb79;
+
         font-size: 20px;
         line-height: 24px;
         border-radius: 50%;
@@ -175,4 +199,6 @@
         width: 28px;
     }
 }
+
+
 
